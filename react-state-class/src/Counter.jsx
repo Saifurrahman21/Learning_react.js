@@ -1,9 +1,14 @@
 import { useState } from "react";
 export default function Counter() {
   let [count, setCount] = useState(0);
-  function incCount() {
-    setCount(count + 1);
-  }
+  let incCount = () => {
+    setCount((currCount) => {
+      return currCount + 1;
+    });
+    setCount((currCount) => {
+      return currCount + 1;
+    });
+  };
 
   return (
     <div>
