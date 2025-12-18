@@ -11,7 +11,7 @@ export default function LikedButton() {
   let likedStyle = { color: "red" };
   return (
     <div>
-      <p>Total_Clicks = {clicks}</p>
+      <p>Total_ Clicks = {clicks}</p>
       <p onClick={toggleLike}>
         {isLiked ? (
           <i className="fa-solid fa-heart" style={likedStyle}></i>
