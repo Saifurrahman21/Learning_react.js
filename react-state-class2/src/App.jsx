@@ -1,11 +1,12 @@
 import { useState } from "react";
 import LudoBoard from "./LudoBoard";
 import "./App.css";
+import Lottery from "./Lottery";
 
 function App() {
   return (
     <>
-      <LudoBoard />
+      <Lottery n={3} winningSum={15} />
     </>
   );
 }
